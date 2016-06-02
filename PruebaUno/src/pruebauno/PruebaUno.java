@@ -94,7 +94,6 @@ public class PruebaUno {
         st.push(hopsToTop-1);
         while(!st.empty()){
             int cur=st.pop();
-            System.out.println(cur);
             if(cur>0){
                 st.push(cur-1); 
                 st.push(cur-2); 
